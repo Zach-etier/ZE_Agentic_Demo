@@ -68,17 +68,17 @@ This demo API is perfect for demonstrating the ZE Agentic Development workflow:
 
 ### Example 1: Fix the CompletedAt Bug
 ```bash
-/ZE_1_Ticket thoughts "Fix bug where CompletedAt is not set when task status changes to Completed"
+/ZE_1_Ticket ZE_Agentic_Demo.sln "Fix bug where CompletedAt is not set when task status changes to Completed"
 ```
 
 ### Example 2: Add Filter by Status Feature
 ```bash
-/ZE_1_Ticket thoughts "Add endpoint to filter tasks by status"
+/ZE_1_Ticket ZE_Agentic_Demo.sln "Add endpoint to filter tasks by status"
 ```
 
 ### Example 3: Add Input Validation
 ```bash
-/ZE_1_Ticket thoughts "Add validation to POST /tasks endpoint for required fields"
+/ZE_1_Ticket ZE_Agentic_Demo.sln "Add validation to POST /tasks endpoint for required fields"
 ```
 
 Each ticket will flow through: Research → Plan → Execute → Verify

@@ -74,27 +74,27 @@ AI agents suffer performance degradation when critical information is buried in 
 
 **1. Create a Ticket**
 ```bash
-/ZE_1_Ticket thoughts "Fix bug where CompletedAt is not set when task status changes to Completed"
+/ZE_1_Ticket ZE_Agentic_Demo.sln "Fix bug where CompletedAt is not set when task status changes to Completed"
 ```
 
 **2. Research the Codebase**
 ```bash
-/ZE_2_Research thoughts thoughts/tickets/bug_completed_timestamp.md
+/ZE_2_Research ZE_Agentic_Demo.sln thoughts/tickets/bug_completed_timestamp.md
 ```
 
 **3. Create an Implementation Plan**
 ```bash
-/ZE_3_Plan thoughts thoughts/tickets/bug_completed_timestamp.md thoughts/research/2025-01-29_task_service.md
+/ZE_3_Plan ZE_Agentic_Demo.sln thoughts/tickets/bug_completed_timestamp.md thoughts/research/2025-01-29_task_service.md
 ```
 
 **4. Execute the Plan (one phase at a time)**
 ```bash
-/ZE_4_Execute thoughts thoughts/plans/fix-completed-timestamp.md
+/ZE_4_Execute ZE_Agentic_Demo.sln thoughts/plans/fix-completed-timestamp.md
 ```
 
 **5. Verify Implementation**
 ```bash
-/ZE_5_Verify thoughts thoughts/plans/fix-completed-timestamp.md
+/ZE_5_Verify ZE_Agentic_Demo.sln thoughts/plans/fix-completed-timestamp.md
 ```
 
 Each command provides structured output with the exact next command to run.
